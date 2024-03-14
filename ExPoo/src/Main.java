@@ -8,6 +8,10 @@ public class Main {
         carro1.setModelo("Punto");
         carro1.setAnofabricacao(2017);
         carro1.setCor("Vermelho");
-        carro1.getFabricante();
+        System.out.println("Id:"+carro1.getId()+"\n"
+        +"Fabricante:"+carro1.getFabricante()+"\n"
+        +"Modelo:"+carro1.getModelo()+"\n"
+        +"Ano de Fabricação:"+carro1.getAnofabricacao()+"\n"
+        +"Cor:"+carro1.getCor());
     }
 }
