@@ -1,7 +1,7 @@
 import java.lang.String;
 public class Caminhão {
     private int id;
-    private String motor300;
+    private String motor3;
     private String fabricante;
     private String modelo;
     private double anofabricacao;
